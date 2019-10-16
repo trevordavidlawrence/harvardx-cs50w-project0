@@ -19,10 +19,35 @@
 
 .content {
     color:cadetblue;
-    text-align:center;
 }
 
 .content a:hover {
     background-color:crimson;
     color: white;
+}
+
+.interests-table {
+    border: 3px solid cadetblue;
+    border-collapse: collapse;
+}
+
+.interests-table th {
+    background-color:lightgoldenrodyellow;
+}
+
+.interests-table td, .interests-table th {
+    border: 1px solid cadetblue;
+    padding: 2px;
+}
+
+.interests-table tbody tr:nth-child(even) {
+    background-color:rgb(241, 241, 241);
+}
+
+.interests-table td:nth-of-type(2), .interests-table th:nth-of-type(2) {
+    color: darkgreen;
+}
+
+.interests-table td:nth-of-type(3), .interests-table th:nth-of-type(3) {
+    color: darkred;
 }
